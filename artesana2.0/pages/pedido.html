@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="shortcout icon" href="../img/icon.png">
+    <!-- fuente -->
+    <link rel="preconnect" href="https://fonts.googleapiscom">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <title>Artesana - Pedido</title>
+</head>
+<body>
+    
+    <header>
+        <h1 class="head" id="head">Artesana</h1>
+    <nav>
+        <ul>
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="./pasteles.html">Pasteles</a></li>
+            <li><a href="./contacto.html">Contacto</a></li>
+            <li><a href="./pedido.html">Ordenar</a></li>
+            <li><a href="./opiniones.html">Opiniones</a></li>
+        </ul>
+    </nav>
+
+    </header>
+<main>
+<h2 id="orden">Para realizar tu pedido, necesitamos que llenes el siguiente formulario</h2>
+<section>
+    <form class="pedido">
+
+        <div class="div">
+            <label for="email">Correo Electrónico</label>
+            <input type="email" name="email" id="email">
+        </div>
+
+        <div class="div">
+            <label for="sabor">Indique el sabor de su pastel</label>
+            <select name="sabor" id="sabor">
+            <option value="sabor">Chocolate</option>
+            <option value="sabor">Vainilla</option>
+            <option value="sabor">Fresa</option>
+            <option value="sabor">Zanahoria</option>
+            <option value="sabor">Red Velvet</option>
+            <option value="sabor">Chocolate Condensado</option>
+         </select>
+        </div>
+
+        <div class="div">
+            <label for="tamaño">Indique el diámetro de su pastel</label>
+            <select name="tamaño" id="tamaño">
+            <option value="tamaño">Pequeño (10cm)</option>
+            <option value="tamaño">Mediano (20cm)</option>
+            <option value="tamaño">Grande (30cm)</option>
+            <option value="tamaño">Otro (indicar en el comentario)</option>
+            </select>
+        </div>
+
+        <div class="div">
+            <label for="pisos">Indique la cantidad de pisos</label>
+            <select name="pisos" id="pisos">
+            <option value="pisos">1</option>
+            <option value="pisos">2</option>
+            <option value="pisos">3</option>
+            <option value="pisos">4</option>
+            </select>
+        </div>
+
+        <div class="div">
+             <label for="relleno">Indique la crema de relleno</label>
+            <select name="relleno" id="relleno">
+            <option value="relleno">Chocolate</option>
+            <option value="relleno">Fresa</option>
+            <option value="relleno">Vainilla</option>
+            <option value="relleno">Chantillí</option>
+            </select>
+        </div>
+
+        <div class="div">
+            <label for="cobertor">Indique la crema de cobertura</label>
+            <select name="cobertor" id="cobertor">
+                <option value="cobertor">Chocolate</option>
+                <option value="cobertor">Fresa</option>
+                <option value="cobertor">Vainilla</option>
+                <option value="cobertor">Chantillí</option>
+            </select>
+        </div>
+
+        <div class="div">
+            <h3>Seleccione los toppings que prefiera</h3>
+            <div class="div">
+                <label for="chocolate">Chispas de Chocolate</label>
+                <input type="checkbox" name="chocolate" id="chocolate">
+            </div>
+            <div class="div">
+                <label for="maní">Maní</label>
+                <input type="checkbox" name="maní" id="maní">
+            </div>
+            <div class="div"> 
+                <label for="chispas">Chispas de Colores</label>
+                <input type="checkbox" name="chispas" id="chispas">
+            </div>
+            <div class="div">
+                <label for="fresas">Fresas</label>
+                <input type="checkbox" name="fresas" id="fresas">
+            </div>
+        </div>
+
+        <div class="div">
+            <h3>Déjanos algún comentario extra o especificación en este espacio</h3>
+            <textarea id="comentario" cols="100" rows="10"></textarea>
+        </div>
+        <div id="send" class="div">
+            <input type="submit" value="Ordenar">
+            <input type="reset" value="Limpiar">
+        </div>
+
+
+
+    </form>
+</section>
+</main>
+<footer>
+    <a href="https://instagram.com/artesanatortass?igshid=YmMyMTA2M2Y=" target="_blank"><img src="../img/instagram.png" alt="instagram" class="red"></a>
+    <a href="https://wa.me/584243463489" target="_blank"><img src="../img/whatsapp.png" alt="whatsapp" class="red"></a>
+    <i>by: fran rivas</i>
+    <a href="#head"><img src="../img/flechaup.png" alt="volver al inicio" class="flechita"></a>  
+ </footer>
+</body>
+</html>
